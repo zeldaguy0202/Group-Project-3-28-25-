@@ -1,0 +1,802 @@
+{ "students": [  {
+  "id": 1,
+  "first_name": "Bobbi",
+  "last_name": "Kett",
+  "email": "bkett0@chron.com",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Computer Science"
+}, {
+  "id": 2,
+  "first_name": "Teriann",
+  "last_name": "Godrich",
+  "email": "tgodrich1@reddit.com",
+  "gender": "Female",
+  "degree_classification": "PhD",
+  "degree_program": "Mathematics" 
+}, {
+  "id": 3,
+  "first_name": "Brew",
+  "last_name": "Sturch",
+  "email": "bsturch2@ning.com",
+  "gender": "Polygender",
+  "degree_classification": "PhD",
+  "degree_program": "Mathematics"
+}, {
+  "id": 4,
+  "first_name": "Adela",
+  "last_name": "Philpot",
+  "email": "aphilpot3@google.com.hk",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Mathematics"
+}, {
+  "id": 5,
+  "first_name": "Hunter",
+  "last_name": "Ewer",
+  "email": "hewer4@thetimes.co.uk",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Civil Engineering"
+}, {
+  "id": 6,
+  "first_name": "Madlin",
+  "last_name": "Luety",
+  "email": "mluety5@discuz.net",
+  "gender": "Female",
+  "degree_classification": "Masters",
+  "degree_program": "Physics"
+}, {
+  "id": 7,
+  "first_name": "Yvonne",
+  "last_name": "Phripp",
+  "email": "yphripp6@ucoz.com",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Physics"
+}, {
+  "id": 8,
+  "first_name": "Rooney",
+  "last_name": "Hryncewicz",
+  "email": "rhryncewicz7@twitter.com",
+  "gender": "Polygender",
+  "degree_classification": "Masters",
+  "degree_program": "Mathematics"
+}, {
+  "id": 9,
+  "first_name": "Kristoforo",
+  "last_name": "Scarce",
+  "email": "kscarce8@wix.com",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Physics"
+}, {
+  "id": 10,
+  "first_name": "Brion",
+  "last_name": "Anstis",
+  "email": "banstis9@reverbnation.com",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Chemical Engineering"
+}, {
+  "id": 11,
+  "first_name": "Harlen",
+  "last_name": "Satchel",
+  "email": "hsatchela@e-recht24.de",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 12,
+  "first_name": "Abdul",
+  "last_name": "Dayer",
+  "email": "adayerb@ihg.com",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 13,
+  "first_name": "Janot",
+  "last_name": "Vasichev",
+  "email": "jvasichevc@discovery.com",
+  "gender": "Genderfluid",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Computer Science"
+}, {
+  "id": 14,
+  "first_name": "Alard",
+  "last_name": "Barensky",
+  "email": "abarenskyd@discovery.com",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Computer Science"
+}, {
+  "id": 15,
+  "first_name": "Shoshanna",
+  "last_name": "Strongitharm",
+  "email": "sstrongitharme@ted.com",
+  "gender": "Female",
+  "degree_classification": "PhD",
+  "degree_program": "Computer Science"
+}, {
+  "id": 16,
+  "first_name": "Remus",
+  "last_name": "Levis",
+  "email": "rlevisf@upenn.edu",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Civil Engineering"
+}, {
+  "id": 17,
+  "first_name": "Fredek",
+  "last_name": "Lutwidge",
+  "email": "flutwidgeg@hao123.com",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 18,
+  "first_name": "Vinson",
+  "last_name": "Dodge",
+  "email": "vdodgeh@desdev.cn",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 19,
+  "first_name": "Evin",
+  "last_name": "Bartkiewicz",
+  "email": "ebartkiewiczi@csmonitor.com",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Physics"
+}, {
+  "id": 20,
+  "first_name": "Auria",
+  "last_name": "Meadows",
+  "email": "ameadowsj@newsvine.com",
+  "gender": "Genderqueer",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 21,
+  "first_name": "Sargent",
+  "last_name": "Drysdell",
+  "email": "sdrysdellk@jiathis.com",
+  "gender": "Genderfluid",
+  "degree_classification": "PhD",
+  "degree_program": "Mathematics"
+}, {
+  "id": 22,
+  "first_name": "Maggi",
+  "last_name": "Truelove",
+  "email": "mtruelovel@bandcamp.com",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Civil Engineering"
+}, {
+  "id": 23,
+  "first_name": "Paquito",
+  "last_name": "Deboy",
+  "email": "pdeboym@opera.com",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Mathematics"
+}, {
+  "id": 24,
+  "first_name": "Rudy",
+  "last_name": "Caskie",
+  "email": "rcaskien@edublogs.org",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 25,
+  "first_name": "Christie",
+  "last_name": "Posse",
+  "email": "cposseo@amazon.de",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Computer Science"
+}, {
+  "id": 26,
+  "first_name": "Eziechiele",
+  "last_name": "Feander",
+  "email": "efeanderp@tripod.com",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Mathematics"
+}, {
+  "id": 27,
+  "first_name": "Daryle",
+  "last_name": "Gwinnell",
+  "email": "dgwinnellq@go.com",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Chemical Engineering"
+}, {
+  "id": 28,
+  "first_name": "Obidiah",
+  "last_name": "Ballance",
+  "email": "oballancer@youtube.com",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 29,
+  "first_name": "Samuel",
+  "last_name": "Sallnow",
+  "email": "ssallnows@mapquest.com",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Physics"
+}, {
+  "id": 30,
+  "first_name": "Allyn",
+  "last_name": "Gillease",
+  "email": "agilleaset@furl.net",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Physics"
+}, {
+  "id": 31,
+  "first_name": "Kellina",
+  "last_name": "Edwick",
+  "email": "kedwicku@goodreads.com",
+  "gender": "Female",
+  "degree_classification": "Masters",
+  "degree_program": "Physics"
+}, {
+  "id": 32,
+  "first_name": "Leesa",
+  "last_name": "Kauble",
+  "email": "lkaublev@artisteer.com",
+  "gender": "Female",
+  "degree_classification": "Masters",
+  "degree_program": "Computer Science"
+}, {
+  "id": 33,
+  "first_name": "Russell",
+  "last_name": "Browett",
+  "email": "rbrowettw@yellowpages.com",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Mathematics"
+}, {
+  "id": 34,
+  "first_name": "Parry",
+  "last_name": "Jakubovsky",
+  "email": "pjakubovskyx@sun.com",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Chemical Engineering"
+}, {
+  "id": 35,
+  "first_name": "Ricoriki",
+  "last_name": "Olley",
+  "email": "rolleyy@weebly.com",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 36,
+  "first_name": "Ezra",
+  "last_name": "McMichael",
+  "email": "emcmichaelz@upenn.edu",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Physics"
+}, {
+  "id": 37,
+  "first_name": "Wren",
+  "last_name": "Grgic",
+  "email": "wgrgic10@unc.edu",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Chemical Engineering"
+}, {
+  "id": 38,
+  "first_name": "Niel",
+  "last_name": "Hinkley",
+  "email": "nhinkley11@studiopress.com",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Civil Engineering"
+}, {
+  "id": 39,
+  "first_name": "Rory",
+  "last_name": "Castrillo",
+  "email": "rcastrillo12@furl.net",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Civil Engineering"
+}, {
+  "id": 40,
+  "first_name": "Aeriela",
+  "last_name": "Issit",
+  "email": "aissit13@nationalgeographic.com",
+  "gender": "Female",
+  "degree_classification": "PhD",
+  "degree_program": "Physics"
+}, {
+  "id": 41,
+  "first_name": "Eward",
+  "last_name": "Croisdall",
+  "email": "ecroisdall14@nydailynews.com",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Computer Science"
+}, {
+  "id": 42,
+  "first_name": "Westbrooke",
+  "last_name": "End",
+  "email": "wend15@biglobe.ne.jp",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 43,
+  "first_name": "Alejoa",
+  "last_name": "McKibbin",
+  "email": "amckibbin16@imageshack.us",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Chemical Engineering"
+}, {
+  "id": 44,
+  "first_name": "Garik",
+  "last_name": "Joron",
+  "email": "gjoron17@a8.net",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 45,
+  "first_name": "Damien",
+  "last_name": "Rubinowitsch",
+  "email": "drubinowitsch18@pcworld.com",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Computer Science"
+}, {
+  "id": 46,
+  "first_name": "Jody",
+  "last_name": "Goosey",
+  "email": "jgoosey19@cdc.gov",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Physics"
+}, {
+  "id": 47,
+  "first_name": "Mace",
+  "last_name": "Mordecai",
+  "email": "mmordecai1a@europa.eu",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Computer Science"
+}, {
+  "id": 48,
+  "first_name": "Graham",
+  "last_name": "MacMickan",
+  "email": "gmacmickan1b@yelp.com",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Civil Engineering"
+}, {
+  "id": 49,
+  "first_name": "Kalie",
+  "last_name": "Kaes",
+  "email": "kkaes1c@cdbaby.com",
+  "gender": "Female",
+  "degree_classification": "PhD",
+  "degree_program": "Chemical Engineering"
+}, {
+  "id": 50,
+  "first_name": "Brittney",
+  "last_name": "Blakeden",
+  "email": "bblakeden1d@sciencedaily.com",
+  "gender": "Female",
+  "degree_classification": "Masters",
+  "degree_program": "Physics"
+}, {
+  "id": 51,
+  "first_name": "Alphonso",
+  "last_name": "Gillcrist",
+  "email": "agillcrist1e@berkeley.edu",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Computer Science"
+}, {
+  "id": 52,
+  "first_name": "Eldridge",
+  "last_name": "Spelling",
+  "email": "espelling1f@discovery.com",
+  "gender": "Bigender",
+  "degree_classification": "Masters",
+  "degree_program": "Computer Science"
+}, {
+  "id": 53,
+  "first_name": "Micki",
+  "last_name": "O' Mulderrig",
+  "email": "momulderrig1g@nifty.com",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Civil Engineering"
+}, {
+  "id": 54,
+  "first_name": "Vanya",
+  "last_name": "Lamberteschi",
+  "email": "vlamberteschi1h@mysql.com",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Physics"
+}, {
+  "id": 55,
+  "first_name": "Victoir",
+  "last_name": "Iddy",
+  "email": "viddy1i@desdev.cn",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Physics"
+}, {
+  "id": 56,
+  "first_name": "Dillon",
+  "last_name": "Ealam",
+  "email": "dealam1j@auda.org.au",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Computer Science"
+}, {
+  "id": 57,
+  "first_name": "Kathy",
+  "last_name": "Dake",
+  "email": "kdake1k@wired.com",
+  "gender": "Female",
+  "degree_classification": "Masters",
+  "degree_program": "Civil Engineering"
+}, {
+  "id": 58,
+  "first_name": "Margalo",
+  "last_name": "Feld",
+  "email": "mfeld1l@naver.com",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Physics"
+}, {
+  "id": 59,
+  "first_name": "Margarita",
+  "last_name": "Cochern",
+  "email": "mcochern1m@wp.com",
+  "gender": "Female",
+  "degree_classification": "PhD",
+  "degree_program": "Computer Science"
+}, {
+  "id": 60,
+  "first_name": "Ari",
+  "last_name": "Burchall",
+  "email": "aburchall1n@epa.gov",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Computer Science"
+}, {
+  "id": 61,
+  "first_name": "Allyn",
+  "last_name": "MacMaster",
+  "email": "amacmaster1o@smugmug.com",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Computer Science"
+}, {
+  "id": 62,
+  "first_name": "Alvie",
+  "last_name": "Botting",
+  "email": "abotting1p@webeden.co.uk",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 63,
+  "first_name": "Ardra",
+  "last_name": "Kleinmintz",
+  "email": "akleinmintz1q@ftc.gov",
+  "gender": "Female",
+  "degree_classification": "PhD",
+  "degree_program": "Computer Science"
+}, {
+  "id": 64,
+  "first_name": "Minerva",
+  "last_name": "Brafield",
+  "email": "mbrafield1r@biblegateway.com",
+  "gender": "Female",
+  "degree_classification": "Masters",
+  "degree_program": "Computer Science"
+}, {
+  "id": 65,
+  "first_name": "Hewitt",
+  "last_name": "Duplain",
+  "email": "hduplain1s@mtv.com",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Computer Science"
+}, {
+  "id": 66,
+  "first_name": "Nerissa",
+  "last_name": "O'Concannon",
+  "email": "noconcannon1t@statcounter.com",
+  "gender": "Agender",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 67,
+  "first_name": "Orion",
+  "last_name": "Issacson",
+  "email": "oissacson1u@salon.com",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Computer Science"
+}, {
+  "id": 68,
+  "first_name": "Fleurette",
+  "last_name": "Hassan",
+  "email": "fhassan1v@miitbeian.gov.cn",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Computer Science"
+}, {
+  "id": 69,
+  "first_name": "Swen",
+  "last_name": "Reek",
+  "email": "sreek1w@is.gd",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Mathematics"
+}, {
+  "id": 70,
+  "first_name": "Myrna",
+  "last_name": "Lermouth",
+  "email": "mlermouth1x@state.tx.us",
+  "gender": "Female",
+  "degree_classification": "Masters",
+  "degree_program": "Mathematics"
+}, {
+  "id": 71,
+  "first_name": "Sioux",
+  "last_name": "Burroughes",
+  "email": "sburroughes1y@msu.edu",
+  "gender": "Female",
+  "degree_classification": "Masters",
+  "degree_program": "Mathematics"
+}, {
+  "id": 72,
+  "first_name": "Trace",
+  "last_name": "Pynner",
+  "email": "tpynner1z@senate.gov",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Civil Engineering"
+}, {
+  "id": 73,
+  "first_name": "Florian",
+  "last_name": "Bonney",
+  "email": "fbonney20@tripadvisor.com",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Physics"
+}, {
+  "id": 74,
+  "first_name": "Dasie",
+  "last_name": "Edinborough",
+  "email": "dedinborough21@rambler.ru",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Physics"
+}, {
+  "id": 75,
+  "first_name": "Fons",
+  "last_name": "Pesic",
+  "email": "fpesic22@arstechnica.com",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 76,
+  "first_name": "Leontyne",
+  "last_name": "Benedetti",
+  "email": "lbenedetti23@merriam-webster.com",
+  "gender": "Female",
+  "degree_classification": "Masters",
+  "degree_program": "Chemical Engineering"
+}, {
+  "id": 77,
+  "first_name": "Louella",
+  "last_name": "Bente",
+  "email": "lbente24@state.tx.us",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Civil Engineering"
+}, {
+  "id": 78,
+  "first_name": "Martino",
+  "last_name": "Leverentz",
+  "email": "mleverentz25@washingtonpost.com",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Mathematics"
+}, {
+  "id": 79,
+  "first_name": "Merrel",
+  "last_name": "Every",
+  "email": "mevery26@wired.com",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Mathematics"
+}, {
+  "id": 80,
+  "first_name": "Connie",
+  "last_name": "Overstreet",
+  "email": "coverstreet27@spotify.com",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Computer Science"
+}, {
+  "id": 81,
+  "first_name": "Justino",
+  "last_name": "Mushett",
+  "email": "jmushett28@independent.co.uk",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Computer Science"
+}, {
+  "id": 82,
+  "first_name": "Cariotta",
+  "last_name": "McKeefry",
+  "email": "cmckeefry29@imgur.com",
+  "gender": "Female",
+  "degree_classification": "PhD",
+  "degree_program": "Civil Engineering"
+}, {
+  "id": 83,
+  "first_name": "Cordy",
+  "last_name": "Dooler",
+  "email": "cdooler2a@clickbank.net",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Chemical Engineering"
+}, {
+  "id": 84,
+  "first_name": "Cristal",
+  "last_name": "Gabbitus",
+  "email": "cgabbitus2b@quantcast.com",
+  "gender": "Female",
+  "degree_classification": "Masters",
+  "degree_program": "Physics"
+}, {
+  "id": 85,
+  "first_name": "Worth",
+  "last_name": "Shortan",
+  "email": "wshortan2c@facebook.com",
+  "gender": "Genderfluid",
+  "degree_classification": "PhD",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 86,
+  "first_name": "Lamar",
+  "last_name": "Sapir",
+  "email": "lsapir2d@telegraph.co.uk",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Chemical Engineering"
+}, {
+  "id": 87,
+  "first_name": "Husein",
+  "last_name": "Harce",
+  "email": "hharce2e@auda.org.au",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Physics"
+}, {
+  "id": 88,
+  "first_name": "Dunn",
+  "last_name": "O'Donnelly",
+  "email": "dodonnelly2f@dagondesign.com",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Physics"
+}, {
+  "id": 89,
+  "first_name": "Barth",
+  "last_name": "Barles",
+  "email": "bbarles2g@reuters.com",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Computer Science"
+}, {
+  "id": 90,
+  "first_name": "Brook",
+  "last_name": "Vlasin",
+  "email": "bvlasin2h@bloglines.com",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Civil Engineering"
+}, {
+  "id": 91,
+  "first_name": "Dilly",
+  "last_name": "Levane",
+  "email": "dlevane2i@booking.com",
+  "gender": "Male",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Chemical Engineering"
+}, {
+  "id": 92,
+  "first_name": "Alley",
+  "last_name": "Hought",
+  "email": "ahought2j@wired.com",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Mathematics"
+}, {
+  "id": 93,
+  "first_name": "Hyacinthia",
+  "last_name": "Spacy",
+  "email": "hspacy2k@tuttocitta.it",
+  "gender": "Genderqueer",
+  "degree_classification": "PhD",
+  "degree_program": "Computer Science"
+}, {
+  "id": 94,
+  "first_name": "Daniel",
+  "last_name": "Pinhorn",
+  "email": "dpinhorn2l@cisco.com",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 95,
+  "first_name": "Bevan",
+  "last_name": "Durant",
+  "email": "bdurant2m@pagesperso-orange.fr",
+  "gender": "Male",
+  "degree_classification": "Masters",
+  "degree_program": "Computer Science"
+}, {
+  "id": 96,
+  "first_name": "Sacha",
+  "last_name": "Cabrera",
+  "email": "scabrera2n@answers.com",
+  "gender": "Female",
+  "degree_classification": "Masters",
+  "degree_program": "Mechanical Engineering"
+}, {
+  "id": 97,
+  "first_name": "Roxana",
+  "last_name": "Parsley",
+  "email": "rparsley2o@bizjournals.com",
+  "gender": "Female",
+  "degree_classification": "Undergraduate",
+  "degree_program": "Civil Engineering"
+}, {
+  "id": 98,
+  "first_name": "Markos",
+  "last_name": "Pietruszka",
+  "email": "mpietruszka2p@geocities.jp",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Computer Science"
+}, {
+  "id": 99,
+  "first_name": "Merilee",
+  "last_name": "Joseph",
+  "email": "mjoseph2q@github.com",
+  "gender": "Female",
+  "degree_classification": "Masters",
+  "degree_program": "Computer Science"
+}, {
+  "id": 100,
+  "first_name": "Ringo",
+  "last_name": "Hargreave",
+  "email": "rhargreave2r@furl.net",
+  "gender": "Male",
+  "degree_classification": "PhD",
+  "degree_program": "Mathematics"
+}]
+}
