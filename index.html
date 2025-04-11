@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <title>Easy Recruiter</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <header>
@@ -20,24 +20,79 @@
     <section class="main-content">
       <section class="search-section">
         <input type="text" id="searchBar" placeholder="Search profiles..." />
-        <button id="searchButton">Search</button>
+        <button onclick="searchItems()">Search</button>
       </section>
-
-      <!-- Temp Profile -->
-      <section class="profiles">
-        <div class="profile">
-          <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="Profile Picture" class="profile-pic" />
-          <div class="profile-details">
-            <p><strong>John Doe</strong></p>
-            <p>Software Engineer</p>
-            <p>Bachelor’s in Computer Science</p>
-          </div>
-          <button class="profile-action">Ref.</button>
-        </div>
-      </section>
-    </section>
+      <section id="results" class="profiles"></section>
+      <script>
+      function searchItems() {
+        const query = document.getElementById('searchBar').value.toLowerCase();
+      
+        // Fetch the data from the db.json
+        fetch('http://localhost:3000/students')
+          .then(response => response.json())
+          .then(data => {
+            const results = data.filter(students => 
+              students.first_name.toLowerCase().includes(query) || 
+              students.last_name.toLowerCase().includes(query) || 
+              students.degree_program.toLowerCase().includes(query) || 
+              students.degree_classification.toLowerCase().includes(query)
+            );
+      
+            displayResults(results);
+          })
+          .catch(error => console.error('Error:', error));
+      }
+      
+      function displayResults(results) {
+      const resultsContainer = document.getElementById('results');
+      resultsContainer.innerHTML = ''; // Clear previous results
+    
+      if (results.length > 0) {
+        results.forEach(student => {
+          // Create main profile div
+          const profile = document.createElement('div');
+          profile.classList.add('profile');
+    
+          // Create and add profile image
+          const img = document.createElement('img');
+          img.src = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png";
+          img.alt = "Profile Picture";
+          img.classList.add('profile-pic');
+          profile.appendChild(img);
+    
+          // Create profile details container
+          const details = document.createElement('div');
+          details.classList.add('profile-details');
+    
+          const namePara = document.createElement('p');
+          namePara.innerHTML = `<strong>${student.first_name} ${student.last_name}</strong>`;
+          details.appendChild(namePara);
+    
+          const rolePara = document.createElement('p');
+          rolePara.textContent = `${student.degree_program}`; // You could add a job title if you have one
+          details.appendChild(rolePara);
+    
+          const degreePara = document.createElement('p');
+          degreePara.textContent = `${student.degree_classification}`;
+          details.appendChild(degreePara);
+    
+          profile.appendChild(details);
+    
+          // Create and add action button
+          const button = document.createElement('button');
+          button.classList.add('profile-action');
+          button.textContent = 'Ref.';
+          profile.appendChild(button);
+    
+          // Append the full profile to the container
+          resultsContainer.appendChild(profile);
+        });
+      } else {
+        resultsContainer.textContent = 'No results found';
+      }
+    }
+      </script>
   </main>
-
-  <script src="scripts.js"></script>
 </body>
 </html>
+
