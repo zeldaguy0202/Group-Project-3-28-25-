@@ -1,67 +1,167 @@
-* 
+/* Main Body code */
+body 
 {
-  box-sizing: border-box;
-}
-body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-weight: bold;
-  color: white;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
   background-color:gold;
-  outline-color: #000;
 }
-.search-container 
+/* Top center code */
+header 
 {
-  margin: 50px auto;
-  max-width: 400px;
-  text-align: center;
-  border-radius: 0.5rem;
+  padding: 10px 20px;
+  background-color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
 }
-input[type="text"] {
+/* Code for website name */
+header h1 
+{
+  margin: 0;
+  color: #008000;
+  background-color:gold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: black, 20pt;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+/*Filter header title and Contact Name font and style*/
+main 
+{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #e4e4e4;
+  padding: 15px;
+  max-width: 300px;
+  outline-color: green;
+  border: green;
+  font-family: 'Courier New', Courier, monospace;
+  color: gold;
+  font-weight: bolder;
+  text-align: center;
+  box-sizing: border-box;
+
+  
+}
+
+
+.sidebar h2 {
+  margin-bottom: 10px;
+  background-color: green;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  background-color: #ccc;
+}
+
+.sidebar li button {
+  display: block;
+  width: 100%;
   padding: 10px;
+  background: #e4e4e4;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sidebar li button:hover {
+  background: #ccc;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-section {
+  padding: 20px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-section input {
+  padding: 10px;
+  font-size: 14px;
   width: 250px;
-  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
-button 
-{
-  padding: 10px 20px;
-  font-size: 16px;
+
+.search-section button {
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #008000;
+  color: white;
+  border: none;
   cursor: pointer;
-  border-radius: 0.5rem;
-
+  border-radius: 5px;
 }
-button
-{
-  padding: 10px 20px;
-  font-size: 16px;
+
+.search-section button:hover {
+  background-color: #008000;
+}
+
+.profiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  background-color: #ccc;
+}
+
+.profile {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-details p {
+  margin: 5px 0;
+}
+
+.profile-action {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #008000;
+  color: white;
+  border: none;
   cursor: pointer;
-  border-radius: 0.5rem;
-}
-.results 
-{
-  margin-top: 20px;
+  border-radius: 5px;
 }
 
-.title
-{
-  display: flex;
-  flex-direction: row;
-  color: green;
-  text-align: center;
-}
-
-.lefttitle
-{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
-}
-h1
-{
-  display: flex;
-  flex-direction: row;
-  color: green;
-  text-align: center;
-}
-h2
-{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.profile-action:hover {
+  background-color: #0056b3;
 }
