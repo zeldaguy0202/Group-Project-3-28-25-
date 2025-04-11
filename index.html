@@ -2,56 +2,43 @@
 <html lang="en">
 <head>
   <title>Easy Recruiter</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="search-container">
-    <div class="title">
-      <h1 class="lefttitle"><em>Easy</em></h1>
-      <h1><em>RECRUITER</em></h1>
-    </div>
-    <h2><em> Search for Students Below:</em></h2>
-    <input type="text" id="searchInput" placeholder="Search by name or category...">
-    <button onclick="searchItems()">Search</button>
-      
-    <button onclick= "filterContents()">Filter</button>
-    <div class="results" id="results"></div>
-  </div>
+  <header>
+    <h1><em>Easy </em>
+      <h1><em>RECRUITER.com</em></h1>
+  </header>
+  <main>
+    <aside class="sidebar">
+      <h2>Filters</h2>
+      <ul>
+        <li><button>Category 1</button></li>
+        <li><button>Category 2</button></li>
+        <li><button>Category 3</button></li>
+      </ul>
+    </aside>
+    <section class="main-content">
+      <section class="search-section">
+        <input type="text" id="searchBar" placeholder="Search profiles..." />
+        <button id="searchButton">Search</button>
+      </section>
 
-  <script>
-    function searchItems() {
-      const query = document.getElementById('searchInput').value.toLowerCase();
+      <!-- Temp Profile -->
+      <section class="profiles">
+        <div class="profile">
+          <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="Profile Picture" class="profile-pic" />
+          <div class="profile-details">
+            <p><strong>John Doe</strong></p>
+            <p>Software Engineer</p>
+            <p>Bachelor’s in Computer Science</p>
+          </div>
+          <button class="profile-action">Ref.</button>
+        </div>
+      </section>
+    </section>
+  </main>
 
-      // Fetch the data from the db.json
-      fetch('http://localhost:3000/students')
-        .then(response => response.json())
-        .then(data => {
-          const results = data.filter(students => 
-            students.first_name.toLowerCase().includes(query) || 
-            students.last_name.toLowerCase().includes(query) || 
-            students.degree_program.toLowerCase().includes(query) || 
-            students.degree_classification.toLowerCase().includes(query)
-          );
-
-          displayResults(results);
-        })
-        .catch(error => console.error('Error:', error));
-    }
-
-    function displayResults(results) {
-      const resultsContainer = document.getElementById('results');
-      resultsContainer.innerHTML = ''; // Clear previous results
-
-      if (results.length > 0) {
-        results.forEach(students => {
-          const resultStudents = document.createElement('p');
-          resultStudents.textContent = `${students.first_name} ${students.last_name} , ${students.degree_program} (${students.degree_classification})`;
-          resultsContainer.appendChild(resultStudents);
-        });
-      } else {
-        resultsContainer.textContent = 'No results found';
-      }
-    }
-  </script>
+  <script src="scripts.js"></script>
 </body>
 </html>
