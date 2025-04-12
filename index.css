@@ -1,45 +1,71 @@
-body {
+Main Body code */
+body 
+{
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
+  background-color:gold;
 }
-
-header {
+/* Top center code */
+header 
+{
   padding: 10px 20px;
-  background-color: #ffffff;
+  background-color: gold;
   display: flex;
   align-items: center;
   justify-content: flex-start; 
 }
-
-header h1 {
+/* Code for website name */
+header h1 
+{
   margin: 0;
   color: #008000;
-}
+  background-color:gold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: black, 20pt;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
 
-main {
+}
+/*Filter header title and Contact Name font and style*/
+main 
+{
   display: flex;
   flex-direction: row;
   height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .sidebar {
   width: 20%;
-  background-color: #f4f4f4;
+  background-color: #e4e4e4;
   padding: 15px;
   max-width: 300px;
+  outline-color: green;
+  border: green;
+  font-family: 'Courier New', Courier, monospace;
+  color: gold;
+  font-weight: bolder;
+  text-align: center;
+  box-sizing: border-box;
+
+  
 }
 
 
 .sidebar h2 {
   margin-bottom: 10px;
+  background-color: green;
 }
 
 .sidebar ul {
   list-style: none;
   padding: 0;
+  background-color: #ccc;
 }
 
 .sidebar li button {
@@ -50,6 +76,8 @@ main {
   border: none;
   margin-bottom: 5px;
   border-radius: 5px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .sidebar li button:hover {
@@ -97,6 +125,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
+  background-color: #ccc;
 }
 
 .profile {
