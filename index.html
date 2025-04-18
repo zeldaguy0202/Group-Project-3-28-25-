@@ -34,8 +34,7 @@
             const results = data.filter(students => 
               students.first_name.toLowerCase().includes(query) || 
               students.last_name.toLowerCase().includes(query) || 
-              students.degree_program.toLowerCase().includes(query) || 
-              students.degree_classification.toLowerCase().includes(query)
+              students.major.toLowerCase().includes(query) 
             );
       
             displayResults(results);
@@ -47,7 +46,7 @@
       const resultsContainer = document.getElementById('results');
       resultsContainer.innerHTML = ''; // Clear previous results
     
-      if (results.length > 0) {
+      if (results.length > 0 ) {
         results.forEach(student => {
           // Create main profile div
           const profile = document.createElement('div');
@@ -55,7 +54,7 @@
     
           // Create and add profile image
           const img = document.createElement('img');
-          img.src = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png";
+          img.src = `${student.image}`;
           img.alt = "Profile Picture";
           img.classList.add('profile-pic');
           profile.appendChild(img);
@@ -69,16 +68,12 @@
           details.appendChild(namePara);
     
           const rolePara = document.createElement('p');
-          rolePara.textContent = `${student.degree_program}`; // You could add a job title if you have one
+          rolePara.textContent = `${student.major}`; // You could add a job title if you have one
           details.appendChild(rolePara);
-    
-          const degreePara = document.createElement('p');
-          degreePara.textContent = `${student.degree_classification}`;
-          details.appendChild(degreePara);
-    
+
           profile.appendChild(details);
     
-          // Create and add action button
+           // Create and add action button
           const button = document.createElement('button');
           button.classList.add('profile-action');
           button.textContent = 'Ref.';
@@ -95,4 +90,5 @@
   </main>
 </body>
 </html>
+
 
