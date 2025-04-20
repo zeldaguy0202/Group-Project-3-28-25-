@@ -3,400 +3,451 @@
   "last_name": "Wethered",
   "email": "swethered0@samsung.com",
   "gpa": 1.82,
-  "work_history": true,
+  "work_history": "true",
   "major": "Biology", 
-  "image": "/studentimages/image0.jpeg"
+  "image": "/studentimages/image0.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Gerianne",
   "last_name": "Disley",
   "email": "gdisley1@livejournal.com",
   "gpa": 2.92,
-  "work_history": false,
+  "work_history": "false",
   "major": "Computer Science",
-  "image": "/studentimages/image1.jpeg"
+  "image": "/studentimages/image1.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Deana",
   "last_name": "Thorrington",
   "email": "dthorrington2@wisc.edu",
   "gpa": 1.87,
-  "work_history": false,
+  "work_history": "false",
   "major": "Political Science",
-  "image": "/studentimages/image2.jpeg"
+  "image": "/studentimages/image2.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Kristin",
   "last_name": "Woodyear",
   "email": "kwoodyear3@gizmodo.com",
   "gpa": 3.21,
-  "work_history": false,
+  "work_history": "false",
   "major": "Political Science",
-  "image": "/studentimages/image3.jpeg"
+  "image": "/studentimages/image3.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Luci",
   "last_name": "Spilstead",
   "email": "lspilstead4@alibaba.com",
   "gpa": 3.34,
-  "work_history": false,
+  "work_history": "false",
   "major": "Biology",
-  "image": "/studentimages/image4.jpeg"
+  "image": "/studentimages/image4.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Noland",
   "last_name": "Ziemsen",
   "email": "nziemsen5@unc.edu",
   "gpa": 1.18,
-  "work_history": false,
+  "work_history": "false",
   "major": "Agriculture",
-  "image": "/studentimages/image5.jpeg"
+  "image": "/studentimages/image5.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Jdavie",
   "last_name": "Devo",
   "email": "jdevo6@paypal.com",
   "gpa": 2.79,
-  "work_history": false,
+  "work_history": "false",
   "major": "Political Science",
-  "image": "/studentimages/image6.jpeg"
+  "image": "/studentimages/image6.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Richie",
   "last_name": "McMurtyr",
   "email": "rmcmurtyr7@wiley.com",
   "gpa": 1.26,
-  "work_history": false,
+  "work_history": "false",
   "major": "Political Science",
-  "image": "/studentimages/image7.jpeg"
+  "image": "/studentimages/image7.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Paola",
   "last_name": "Brockwell",
   "email": "pbrockwell8@gov.uk",
   "gpa": 1.45,
-  "work_history": true,
+  "work_history": "true",
   "major": "Biology",
-  "image": "/studentimages/image8.jpeg"
+  "image": "/studentimages/image8.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Pandora",
   "last_name": "Hune",
   "email": "phune9@zdnet.com",
   "gpa": 2.1,
-  "work_history": false,
+  "work_history": "false",
   "major": "Agriculture",
-  "image": "/studentimages/image9.jpeg"
+  "image": "/studentimages/image9.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Tomasine",
   "last_name": "Keetch",
   "email": "tkeetcha@mozilla.com",
   "gpa": 2.99,
-  "work_history": false,
+  "work_history": "false",
   "major": "Music",
-  "image": "/studentimages/image10.jpeg"
+  "image": "/studentimages/image10.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Patric",
   "last_name": "Huskisson",
   "email": "phuskissonb@marketwatch.com",
   "gpa": 3.12,
-  "work_history": true,
+  "work_history": "true",
   "major": "Biology",
-  "image": "/studentimages/image11.jpeg"
+  "image": "/studentimages/image11.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Hilary",
   "last_name": "Coils",
   "email": "hcoilsc@4shared.com",
   "gpa": 3.73,
-  "work_history": false,
+  "work_history": "false",
   "major": "Education",
-  "image": "/studentimages/image12.jpeg"
+  "image": "/studentimages/image12.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Antonin",
   "last_name": "Brookson",
   "email": "abrooksond@discuz.net",
   "gpa": 2.95,
-  "work_history": false,
+  "work_history": "false",
   "major": "Chemistry",
-  "image": "/studentimages/image13.jpeg"
+  "image": "/studentimages/image13.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Eustace",
   "last_name": "Kurt",
   "email": "ekurte@networksolutions.com",
   "gpa": 2.9,
-  "work_history": false,
+  "work_history": "false",
   "major": "Biology",
-  "image": "/studentimages/image14.jpeg"
+  "image": "/studentimages/image14.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Bastien",
   "last_name": "Monni",
   "email": "bmonnif@trellian.com",
   "gpa": 1.93,
-  "work_history": false,
+  "work_history": "false",
   "major": "Biology",
-  "image": "/studentimages/image15.jpeg"
+  "image": "/studentimages/image15.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Karole",
   "last_name": "Ashelford",
   "email": "kashelfordg@europa.eu",
   "gpa": 2.61,
-  "work_history": true,
+  "work_history": "true",
   "major": "Nursing",
-  "image": "/studentimages/image16.jpeg"
+  "image": "/studentimages/image16.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Hartley",
   "last_name": "Dyka",
   "email": "hdykah@howstuffworks.com",
   "gpa": 2.86,
-  "work_history": false,
+  "work_history": "false",
   "major": "Nursing",
-  "image": "/studentimages/image17.jpeg"
+  "image": "/studentimages/image17.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Butch",
   "last_name": "Rixon",
   "email": "brixoni@house.gov",
   "gpa": 2.37,
-  "work_history": true,
+  "work_history": "true",
   "major": "Agriculture",
-  "image": "/studentimages/image18.jpeg"
+  "image": "/studentimages/image18.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Culver",
   "last_name": "Gradley",
   "email": "cgradleyj@usnews.com",
   "gpa": 3.52,
-  "work_history": true,
+  "work_history": "true",
   "major": "Political Science",
-  "image": "/studentimages/image19.jpeg"
+  "image": "/studentimages/image19.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Candy",
   "last_name": "Martinuzzi",
   "email": "cmartinuzzik@ucoz.ru",
   "gpa": 1.77,
-  "work_history": true,
+  "work_history": "true",
   "major": "Art",
-  "image": "/studentimages/image20.jpeg"
+  "image": "/studentimages/image20.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Orelle",
   "last_name": "Bracco",
   "email": "obraccol@feedburner.com",
   "gpa": 2.48,
-  "work_history": true,
+  "work_history": "true",
   "major": "Education",
-  "image": "/studentimages/image21.jpeg"
+  "image": "/studentimages/image21.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Ashia",
   "last_name": "O'Sherrin",
   "email": "aosherrinm@abc.net.au",
   "gpa": 3.08,
-  "work_history": true,
+  "work_history": "true",
   "major": "Agriculture",
-  "image": "/studentimages/image22.jpeg"
+  "image": "/studentimages/image22.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Manon",
   "last_name": "Benham",
   "email": "mbenhamn@noaa.gov",
   "gpa": 2.82,
-  "work_history": true,
+  "work_history": "true",
   "major": "Finance",
-  "image": "/studentimages/image23.jpeg"
+  "image": "/studentimages/image23.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Miof mela",
   "last_name": "Garman",
   "email": "mgarmano@independent.co.uk",
   "gpa": 3.86,
-  "work_history": false,
+  "work_history": "false",
   "major": "Agriculture",
-  "image": "/studentimages/image24.jpeg"
+  "image": "/studentimages/image24.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Zenia",
   "last_name": "McPolin",
   "email": "zmcpolinp@sun.com",
   "gpa": 1.79,
-  "work_history": true,
+  "work_history": "true",
   "major": "Art",
-  "image": "/studentimages/image25.jpeg"
+  "image": "/studentimages/image25.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Kissee",
   "last_name": "Paaso",
   "email": "kpaasoq@mediafire.com",
   "gpa": 3.13,
-  "work_history": false,
+  "work_history": "false",
   "major": "Chemistry",
-  "image": "/studentimages/image26.jpeg"
+  "image": "/studentimages/image26.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Beth",
   "last_name": "Bowfin",
   "email": "bbowfinr@cafepress.com",
   "gpa": 3.82,
-  "work_history": true,
+  "work_history": "true",
   "major": "Nursing",
-  "image": "/studentimages/image27.jpeg"
+  "image": "/studentimages/image27.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Jeanie",
   "last_name": "Inde",
   "email": "jindes@tumblr.com",
   "gpa": 2.05,
-  "work_history": true,
+  "work_history": "true",
   "major": "Music",
-  "image": "/studentimages/image28.jpeg"
+  "image": "/studentimages/image28.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Sula",
   "last_name": "Lillo",
   "email": "slillot@wordpress.com",
   "gpa": 2.73,
-  "work_history": false,
+  "work_history": "false",
   "major": "Art",
-  "image": "/studentimages/image29.jpeg"
+  "image": "/studentimages/image29.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Walther",
   "last_name": "Hedlestone",
   "email": "whedlestoneu@pinterest.com",
   "gpa": 3.22,
-  "work_history": false,
+  "work_history": "false",
   "major": "Biology",
-  "image": "/studentimages/image30.jpeg"
+  "image": "/studentimages/image30.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Ola",
   "last_name": "Kirwan",
   "email": "okirwanv@ftc.gov",
   "gpa": 3.24,
-  "work_history": true,
+  "work_history": "true",
   "major": "Finance",
-  "image": "/studentimages/image31.jpeg"
+  "image": "/studentimages/image31.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Sasha",
   "last_name": "Ottiwill",
   "email": "sottiwillw@wordpress.org",
   "gpa": 2.46,
-  "work_history": true,
+  "work_history": "true",
   "major": "Biology",
-  "image": "/studentimages/image32.jpeg"
+  "image": "/studentimages/image32.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Archibald",
   "last_name": "Scarratt",
   "email": "ascarrattx@g.co",
   "gpa": 3.73,
-  "work_history": true,
+  "work_history": "true",
   "major": "Music",
-  "image": "/studentimages/image33.jpeg"
+  "image": "/studentimages/image33.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Bren",
   "last_name": "Gerhts",
   "email": "bgerhtsy@altervista.org",
   "gpa": 1.61,
-  "work_history": false,
+  "work_history": "false",
   "major": "Finance",
-  "image": "/studentimages/image34.jpeg"
+  "image": "/studentimages/image34.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Cecile",
   "last_name": "Swalteridge",
   "email": "cswalteridgez@home.pl",
   "gpa": 3.62,
-  "work_history": false,
+  "work_history": "false",
   "major": "Math",
-  "image": "/studentimages/image35.jpeg"
+  "image": "/studentimages/image35.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Xaviera",
   "last_name": "Probbin",
   "email": "xprobbin10@usnews.com",
   "gpa": 2.15,
-  "work_history": false,
+  "work_history": "false",
   "major": "Math",
-  "image": "/studentimages/image36.jpeg"
+  "image": "/studentimages/image36.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Hermina",
   "last_name": "Readhead",
   "email": "hreadhead11@g.co",
   "gpa": 2.44,
-  "work_history": false,
+  "work_history": "false",
   "major": "Agriculture",
-  "image": "/studentimages/image37.jpeg"
+  "image": "/studentimages/image37.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Quintina",
   "last_name": "Freiberg",
   "email": "qfreiberg12@businesswire.com",
   "gpa": 1.7,
-  "work_history": true,
+  "work_history": "true",
   "major": "Finance",
-  "image": "/studentimages/image38.jpeg"
+  "image": "/studentimages/image38.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Celestyna",
   "last_name": "Opy",
   "email": "copy13@hugedomains.com",
   "gpa": 1.22,
-  "work_history": false,
+  "work_history": "false",
   "major": "Music",
-  "image": "/studentimages/image39.jpeg"
+  "image": "/studentimages/image39.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Gwendolyn",
   "last_name": "Chadband",
   "email": "gchadband14@yelp.com",
   "gpa": 2.92,
-  "work_history": false,
+  "work_history": "false",
   "major": "Chemistry",
-  "image": "/studentimages/image40.jpeg"
+  "image": "/studentimages/image40.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Milo",
   "last_name": "Dunnan",
   "email": "mdunnan15@xing.com",
   "gpa": 3.53,
-  "work_history": true,
+  "work_history": "true",
   "major": "Art",
-  "image": "/studentimages/image41.jpeg"
+  "image": "/studentimages/image41.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Dani",
   "last_name": "Bristo",
   "email": "dbristo16@chicagotribune.com",
   "gpa": 3.14,
-  "work_history": false,
+  "work_history": "false",
   "major": "Finance",
-  "image": "/studentimages/image42.jpeg"
+  "image": "/studentimages/image42.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Amy",
   "last_name": "Tamblyn",
   "email": "atamblyn17@apple.com",
   "gpa": 2.66,
-  "work_history": true,
+  "work_history": "true",
   "major": "Nursing",
-  "image": "/studentimages/image43.jpeg"
+  "image": "/studentimages/image43.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Arte",
   "last_name": "Whistan",
   "email": "awhistan18@businessweek.com",
   "gpa": 1.01,
-  "work_history": true,
+  "work_history": "true",
   "major": "Math",
-  "image": "/studentimages/image42.jpeg"
+  "image": "/studentimages/image42.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Jasen",
   "last_name": "Abley",
   "email": "jabley19@hao123.com",
   "gpa": 2.42,
-  "work_history": true,
+  "work_history": "true",
   "major": "Computer Science",
-  "image": "/studentimages/image43.jpeg"
+  "image": "/studentimages/image43.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Jameson",
   "last_name": "Peare",
   "email": "jpeare1a@globo.com",
   "gpa": 2.62,
-  "work_history": true,
+  "work_history": "true",
   "major": "Art",
-  "image": "/studentimages/image44.jpeg"
+  "image": "/studentimages/image44.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Audrey",
   "last_name": "Gutans",
   "email": "agutans1b@topsy.com",
   "gpa": 1.27,
-  "work_history": true,
+  "work_history": "true",
   "major": "Agriculture",
-  "image": "/studentimages/image45.jpeg"
+  "image": "/studentimages/image45.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Juditha",
   "last_name": "Drysdall",
   "email": "jdrysdall1c@4shared.com",
   "gpa": 2.76,
-  "work_history": true,
+  "work_history": "true",
   "major": "Computer Science",
-  "image": "/studentimages/image46.jpeg"
+  "image": "/studentimages/image46.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }, {
   "first_name": "Dodi",
   "last_name": "O'Hingerty",
   "email": "dohingerty1d@vkontakte.ru",
   "gpa": 1.65,
-  "work_history": false,
+  "work_history": "false",
   "major": "Education",
-  "image": "/studentimages/image47.jpeg"
+  "image": "/studentimages/image47.jpeg",
+  "resume": "/studentresumes/resume0.pdf"
 }]
 }
+
