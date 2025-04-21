@@ -38,31 +38,42 @@ main
   height: 100vh;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.sidebar {
+/*Filter sidebar background contents*/
+.sidebar 
+{
   width: 20%;
-  background-color: #e4e4e4;
-  padding: 20px;
+  background-color:green;
+  padding: 0.5rem;
   max-width: 300px;
-  outline-color: green;
-  border: green;
+  outline-color:black;
+  border: gold;
   font-family: 'Courier New', Courier, monospace;
-  color: black;
-  font-weight: bolder;
+  color: whitesmoke;
+  font-weight: bolder, 800;
   text-align: center;
   box-sizing: border-box; 
+  border-radius: 0.3rem;
+  font-size: larger;
+  -webkit-text-stroke: 0.2px black;
+
 }
 
-
+/*Filter Header*/
 .sidebar h2 {
   margin-bottom: 10px;
-  background-color: green;
+  background-color: gold;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.8px black;
+  font-size: 25pt;
 }
 
 .sidebar ul {
   list-style: none;
-  padding: 0;
+  padding: 0.5rem;
   background-color: #ccc;
+  border-radius: 0.5rem;
 }
 
 .sidebar li button {
@@ -95,6 +106,7 @@ main
   display: flex;
   justify-content: center;
   gap: 10px;
+  border-radius: 0.5rem;
 }
 
 .search-section input {
