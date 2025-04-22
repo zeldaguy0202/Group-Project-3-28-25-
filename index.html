@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>easyrecruiter.com</title>
-  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <title>EasyRecruiter</title>
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
   <header>
@@ -11,152 +12,60 @@
   <main>
     <aside class="sidebar">
       <h2>Filters</h2>
-      <div>
-        <label for="filters">Choose a filter:</label><br></br>
-        <form id="filterForm">
-          <label for="names">Name:</label>
-            <select name="names" id="names">
-              <option value="a-z">A-Z</option>
-              <option value="z-a">Z-A</option>
-            </select><br></br>
-          <label for="Majors">Majors:</label>
-            <select name="majors" id="majors">
-              <option value="">--Select Major--</option>
-              <option value="Biology">Biology</option>
-              <option value="Agriculture">Agriculture</option>
-              <option value="Music">Music</option>
-              <option value="Computer Science">Computer Science</option>
-              <option value="Political Science">Political Science</option>
-              <option value="Chemistry">Chemistry</option>
-              <option value="Nursing">Nursing</option>
-              <option value="Education">Education</option>
-              <option value="Art">Art</option>
-              <option value="Finance">Finance</option>
-              <option value="Math">Math</option>
-            </select><br></br>
-          <label for="Workhistory">Previous Job:</label>
-            <select name="workhistory" id="workhistory">
-              <option value="">--Select--</option>
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select><br></br>
-          <label for="gpa">GPA:</label>
-            <select name="gpa" id="gpa">
-              <option value="lessthan2"> Less than 2.0 </option>
-              <option value="lessthan3"> Between 2.0 - 3.0 </option>
-              <option value="lessthan3.5"> Between 3.0 - 3.5 </option>
-              <option value="greaterthan3.5"> 3.5 or Greater </option>
-            </select><br></br>
-            <input type="submit" value="Submit">
-        </form>
-      </div>
+      <form id="filterForm">
+        <label for="names">Name:</label>
+        <select name="names" id="names">
+          <option value="a-z">A–Z</option>
+          <option value="z-a">Z–A</option>
+        </select>
+
+        <label for="majors">Majors:</label>
+        <select name="majors" id="majors">
+          <option value="">--Select Major--</option>
+          <option>Biology</option>
+          <option>Agriculture</option>
+          <option>Music</option>
+          <option>Computer Science</option>
+          <option>Political Science</option>
+          <option>Chemistry</option>
+          <option>Nursing</option>
+          <option>Education</option>
+          <option>Art</option>
+          <option>Finance</option>
+          <option>Math</option>
+        </select>
+
+        <label for="workhistory">Previous Job:</label>
+        <select name="workhistory" id="workhistory">
+          <option value="">--Select--</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+
+        <label for="gpa">GPA:</label>
+        <select name="gpa" id="gpa">
+          <option value="lessthan2">Less than 2.0</option>
+          <option value="lessthan3">2.0 – 3.0</option>
+          <option value="lessthan3.5">3.0 – 3.5</option>
+          <option value="greaterthan3.5">3.5 or Greater</option>
+        </select>
+
+        <input type="submit" value="Submit" />
+      </form>
     </aside>
+
     <section class="main-content">
-      <section class="search-section">
-        <input type="text" id="searchBar" placeholder="Search profiles..." />
-        <button onclick="searchItems()">Search</button>
-      </section>
-      <button class="Button">Next Page</button>
-    <section id="results" class="profiles"></section>
+      <div class="search-section">
+        <input type="text" id="searchBar" placeholder="Search profiles…" />
+        <button id="searchBtn">Search</button>
+      </div>
 
-      <script>
-      function searchItems() {
-        const query = document.getElementById('searchBar').value.toLowerCase();
-      
-        // Fetch the data from the db.json
-        fetch('http://localhost:3000/students')
-          .then(response => response.json())
-          .then(data => {
-            const results = data.filter(students => 
-              students.first_name.toLowerCase().includes(query) || 
-              students.last_name.toLowerCase().includes(query) || 
-              students.major.toLowerCase().includes(query) 
-            );
-          displayResults(results);
-          })
-          .catch(error => console.error('Error:', error));
-      }
+      <section id="results" class="profiles"></section>
 
-
-      document.getElementById("filterForm").addEventListener("submit", function (e) {
-        e.preventDefault();
-        const selectedQuery = document.getElementById('searchBar').value.toLowerCase(); 
-        const selectedMajor = document.getElementById('majors').value.toLowerCase(); 
-        const selectedWorkHistory = document.getElementById('workhistory').value.toLowerCase(); 
-        // Fetch the data from the db.json
-        fetch('http://localhost:3000/students')
-          .then(response => response.json())
-          .then(data => {
-            const resultsFiltered = data.filter(students => 
-              students.first_name.toLowerCase().includes(selectedQuery) &&
-              students.last_name.toLowerCase().includes(selectedQuery) && 
-              students.major.toLowerCase().includes(selectedMajor) && 
-              students.work_history.toLowerCase().includes(selectedWorkHistory)
-            );
-      
-            displayResults(resultsFiltered);
-          })
-          .catch(error => console.error('Error:', error));
-      }); 
-
-      
-      function displayResults(results) {
-      const resultsContainer = document.getElementById('results');
-      resultsContainer.innerHTML = ''; // Clear previous results
-    
-      if (results.length > 0 ) {
-        results.forEach(student => {
-          // Create main profile div
-          const profile = document.createElement('div');
-          profile.classList.add('profile');
-    
-          // Create and add profile image
-          const img = document.createElement('img');
-          img.src = `${student.image}`;
-          img.alt = "Profile Picture";
-          img.classList.add('profile-pic');
-          profile.appendChild(img);
-    
-          // Create profile details container
-          const details = document.createElement('div');
-          details.classList.add('profile-details');
-    
-          const namePara = document.createElement('p');
-          namePara.innerHTML = `<strong>${student.first_name} ${student.last_name}</strong>`;
-          details.appendChild(namePara);
-    
-          const rolePara = document.createElement('p');
-          rolePara.textContent = `${student.major}`; // You could add a job title if you have one
-          details.appendChild(rolePara);
-
-          profile.appendChild(details);
-    
-           // Create and add action button
-          const button = document.createElement('button');
-          button.classList.add('profile-action');
-          button.textContent = 'Download PDF';
-
-          button.addEventListener('click', () => {
-              const link = document.createElement('a');
-              link.href = `${student.resume}`; // Make sure your JSON has this field
-              link.target = '_blank';
-              document.body.appendChild(link);
-              link.click();
-              document.body.removeChild(link);
-            });
-
-          profile.appendChild(button);
-    
-          // Append the full profile to the container
-          resultsContainer.appendChild(profile);
-        });
-      } else {
-        resultsContainer.textContent = 'No results found';
-      }  
-    }
-      </script>
+      <pre id="output"></pre>
+    </section>
   </main>
+
+  <script src="index.js" defer></script>
 </body>
 </html>
-
-
